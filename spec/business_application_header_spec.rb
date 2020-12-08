@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 
-RSpec.describe BpxClient::Services::BusinessApplicationHeader do
+RSpec.describe BpxClient do
 #describe Bpx::Client::Services::BusinessApplicationHeader do
 
   it "you must enter all params to create a BusinessApplicationHeader object" do

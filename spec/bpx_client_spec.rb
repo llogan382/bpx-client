@@ -1,4 +1,5 @@
-#require 'spec_helper'
+require "bpx_client"
+
 
 RSpec.describe BpxClient do
   it "has a version number" do
