@@ -1,5 +1,5 @@
 example_id                                      | status | run_time        |
 ----------------------------------------------- | ------ | --------------- |
-./spec/bpx_client_spec.rb[1:1]                  | passed | 0.00045 seconds |
-./spec/bpx_client_spec.rb[1:2]                  | passed | 0.00033 seconds |
-./spec/business_application_header_spec.rb[1:1] | failed | 0.00005 seconds |
+./spec/bpx_client_spec.rb[1:1]                  | passed | 0.00055 seconds |
+./spec/bpx_client_spec.rb[1:2]                  | passed | 0.00042 seconds |
+./spec/business_application_header_spec.rb[1:1] | failed | 0.00006 seconds |
