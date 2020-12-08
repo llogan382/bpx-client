@@ -1,0 +1,29 @@
+global:
+  payrailz_bpx_id: '1234567890'
+consumer_maintainance:
+  savon:
+    wsdl: ../../../vendor/BPX_SOAP/ConsumerMaintenanceService_2/consumermaintenanceservice_2.wsdl
+    endpoint_suffix: /ConsumerMaintenance/maintainConsumer/2.0
+    namespace: http://ap.com/xsd/message/iso20022/eumt.003.01
+    log_level: :debug
+    log: true
+    convert_request_keys_to: :camelcase
+
+  # Constants for MC tech specs
+  msg_fctn: MCIQ
+  prtcol_vrsn: '001'
+  xchgid: '001'
+
+request_to_link:
+  savon:
+    wsdl: ../../../vendor/BPX_SOAP/ConsumerMaintenanceService_2/consumermaintenanceservice_2.wsdl
+    namespace: http://ap.com/xsd/message/iso20022/eumt.003.01
+    log_level: :debug
+    log: true
+    convert_request_keys_to: :camelcase
+
+  # Constants for MC tech specs
+  msg_fctn: MCIQ
+  prtcol_vrsn: '001'
+  xchgid: '001'
+
